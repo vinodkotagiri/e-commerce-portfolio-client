@@ -17,7 +17,7 @@ import { Link } from 'react-router-dom'
 
 export default function Header() {
 	return (
-		<Navbar collapseOnSelect expand='lg' bg='dark' variant='dark'>
+		<Navbar collapseOnSelect expand='lg' bg='dark' variant='dark' sticky='top'>
 			<Container>
 				<LinkContainer to='/'>
 					<Navbar.Brand>S-Cart</Navbar.Brand>
